@@ -1,0 +1,80 @@
+/* 
+Fonts are from fonts.google.com 
+Color-palette is to reflect my personality.
+*/
+
+h1 {
+	color: #ffbb56; /* Orange*/
+	text-align: center;
+}
+
+h2 {
+	color: #25a7ed; /* Blue */
+	text-align: left;
+}
+
+h3 {
+	color: #f7afff; /* Purple */
+}
+h5 {
+	color: #f5f6f4; /* White */
+	text-align: left;
+}
+
+p {
+	color: #f5f6f4; /* White */
+}
+
+body {
+	background: #464556;
+    font-size: 100%;
+    line-height: 1.6875;
+    font-family: Montserrat Light;
+}
+
+a:link {
+	color: #f5f6f4;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Hoverable Side Navigation: https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp */
+#mySidenav a {
+    position: absolute;
+    left: -85px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#me {
+    top: 20px;
+    background-color: #ffbb56;
+}
+
+#work {
+    top: 80px;
+    background-color: #25a7ed;
+}
+
+#connect {
+    top: 140px;
+    background-color: #f7afff;
+}
+
+.intro {
+    text-align: center;
+    background: #464556;
+}
+
+/* Article about Media Query Breaks to help my understanding: https://teamtreehouse.com/community/are-there-standard-media-query-break-points */
+
