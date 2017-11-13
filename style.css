@@ -58,7 +58,7 @@ footer {
 /* Hoverable Side Navigation: https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp */
 #mySidenav a {
     position: absolute;
-    left: -10px;
+    left: -80px;
     transition: 0.3s;
     padding: 10px;
     width: 100px;
