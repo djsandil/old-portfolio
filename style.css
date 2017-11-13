@@ -4,21 +4,22 @@ Color-palette is to reflect my personality.
 */
 
 h1 {
-	color: #ffbb56; /* Orange*/
+	color: #ffbb56; /* Orange */
 	text-align: center;
 }
 
 h2 {
 	color: #25a7ed; /* Blue */
-	text-align: left;
+	text-align: center;
 }
 
 h3 {
 	color: #f7afff; /* Purple */
 }
-h5 {
+
+h4 {
 	color: #f5f6f4; /* White */
-	text-align: left;
+	text-align: center;
 }
 
 p {
@@ -36,19 +37,33 @@ a:link {
 	color: #f5f6f4;
 }
 
+a:active {
+    color: darkred;
+}
+
 footer {
     text-align: center;
 }
 
+.img-circle {
+    border-radius: 40%;
+    border
+}
+
+.mystyle {
+    width:300px;
+    height:100px;
+    background-color:coral;
+}
 /* Hoverable Side Navigation: https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp */
 #mySidenav a {
     position: absolute;
-    left: -85px;
+    left: -10px;
     transition: 0.3s;
     padding: 10px;
     width: 100px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -57,24 +72,57 @@ footer {
 }
 
 #me {
+    top: 70px;
+    background-color: #25a7ed;
+}
+
+#work {
     top: 20px;
     background-color: #ffbb56;
 }
 
-#work {
-    top: 80px;
-    background-color: #25a7ed;
-}
-
-#connect {
-    top: 140px;
+#extracur {
+    top: 120px;
     background-color: #f7afff;
 }
 
-.intro {
+#connect {
+    top: 170px;
+    background-color: #f5f6f4;
+    color: #464556;
+}
+
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.intro, .featuredwork, .aboutme, 
+.activeleader {
     text-align: center;
-    background: #464556;
 }
 
 /* Article about Media Query Breaks to help my understanding: https://teamtreehouse.com/community/are-there-standard-media-query-break-points */
 
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+    
+    h3 {
+        font-size: 2.5em;
+    }
+    
+    h4 {
+        font-size: 2em;
+    }
+    
+}
