@@ -6,24 +6,29 @@ Color-palette is to reflect my personality.
 h1 {
 	color: #ffbb56; /* Orange */
 	text-align: center;
+    font-size: 35px;
 }
 
 h2 {
 	color: #25a7ed; /* Blue */
 	text-align: center;
+    font-size: 30px;
 }
 
 h3 {
 	color: #f7afff; /* Purple */
+    font-size: 25px;
 }
 
 h4 {
 	color: #f5f6f4; /* White */
 	text-align: center;
+    font-size: 20px;
 }
 
 p {
 	color: #f5f6f4; /* White */
+    font-size: 18px;
 }
 
 body {
@@ -97,9 +102,7 @@ div {
     text-align: center;
 }
 
-.myself {
-    border: 5px solid #f5f6f4;
-}
+
 /* Article about Media Query Breaks to help my understanding: https://teamtreehouse.com/community/are-there-standard-media-query-break-points */
 
 
