@@ -30,7 +30,7 @@ body {
 	background: #464556;
     font-size: 100%;
     line-height: 1.6875;
-    font-family: Montserrat-Light;
+    font-family: Montserrat Light;
 }
 
 a:link {
@@ -163,26 +163,20 @@ div {
 
 @media only screen and (max-width: 992px) {
     h1 {
-        font-size: 3.5em;
-    }
-    
-    h2 {
-        font-size: 3em;
-    }
-    
-    h3 {
         font-size: 2.5em;
     }
     
-    h4 {
+    h2 {
         font-size: 2em;
     }
     
-    p {
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    h4, p {
         font-size: 1em;
     }
-    .alexavid {
-        width: auto;
-        height: auto;
-    }
+
+
 }
