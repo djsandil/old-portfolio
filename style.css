@@ -45,16 +45,8 @@ footer {
     text-align: center;
 }
 
-.img-circle {
-    border-radius: 40%;
-    border
-}
 
-.mystyle {
-    width:300px;
-    height:100px;
-    background-color:coral;
-}
+
 /* Hoverable Side Navigation: https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp */
 #mySidenav a {
     position: absolute;
@@ -105,6 +97,9 @@ div {
     text-align: center;
 }
 
+.myself {
+    border: 5px solid #f5f6f4;
+}
 /* Article about Media Query Breaks to help my understanding: https://teamtreehouse.com/community/are-there-standard-media-query-break-points */
 
 
@@ -177,6 +172,5 @@ div {
     h4, p {
         font-size: 1em;
     }
-
 
 }
